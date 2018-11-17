@@ -10,6 +10,4 @@ app.get('/', (req, res) => {
 
 
 
-server.listern(PORT) => {
-  res.send('sanity': 'check');
-}
+app.listen(PORT);
